@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free React - v1.0.0
+* MAMAPESA React - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-react
@@ -21,7 +21,7 @@ import { forwardRef, createContext, useContext } from "react";
 // prop-types is a library for typechecking of props
 import PropTypes from "prop-types";
 
-// Vision UI Dashboard React components
+//  Dashboard React components
 import VuiBox from "components/VuiBox";
 
 // Custom styles for VuiPagination

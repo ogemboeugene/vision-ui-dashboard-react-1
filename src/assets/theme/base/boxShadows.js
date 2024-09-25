@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free React - v1.0.0
+* MAMAPESA React - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-react
@@ -17,15 +17,15 @@
 */
 
 /**
- * The base box-shadow styles for the Vision UI Dashboard  Material.
+ * The base box-shadow styles for the  Dashboard  Material.
  * You can add new box-shadow using this file.
- * You can customized the box-shadow for the entire Vision UI Dashboard  Material using thie file.
+ * You can customized the box-shadow for the entire  Dashboard  Material using thie file.
  */
 
-// Vision UI Dashboard React Base Styles
+//  Dashboard React Base Styles
 import colors from "assets/theme/base/colors";
 
-// Vision UI Dashboard React Helper Functions
+//  Dashboard React Helper Functions
 import boxShadow from "assets/theme/functions/boxShadow";
 
 const { black, white, info, inputColors, tabs } = colors;

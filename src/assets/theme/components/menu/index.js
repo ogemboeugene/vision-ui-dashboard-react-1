@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free React - v1.0.0
+* MAMAPESA React - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-react
@@ -16,14 +16,14 @@
 
 */
 
-// Vision UI Dashboard React base styles
+//  Dashboard React base styles
 import boxShadows from "assets/theme/base/boxShadows";
 import typography from "assets/theme/base/typography";
 import colors from "assets/theme/base/colors";
 import borders from "assets/theme/base/borders";
 import linearGradient from "assets/theme/functions/linearGradient";
 
-// Vision UI Dashboard React helper functions
+//  Dashboard React helper functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { borderWidth } = borders;

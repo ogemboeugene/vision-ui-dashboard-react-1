@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free React - v1.0.0
+* MAMAPESA React - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-react
@@ -31,7 +31,7 @@ import Icon from "@mui/material/Icon";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import FacebookIcon from "@mui/icons-material/Facebook";
 
-// Vision UI Dashboard React components
+//  Dashboard React components
 import VuiBox from "components/VuiBox";
 import VuiTypography from "components/VuiTypography";
 import VuiButton from "components/VuiButton";
@@ -40,7 +40,7 @@ import VuiSwitch from "components/VuiSwitch";
 // Custom styles for the Configurator
 import ConfiguratorRoot from "examples/Configurator/ConfiguratorRoot";
 
-// Vision UI Dashboard React context
+//  Dashboard React context
 import {
   useVisionUIController,
   setOpenConfigurator,
@@ -103,7 +103,7 @@ function Configurator() {
       >
         <VuiBox>
           <VuiTypography color="white" variant="h5" fontWeight="bold">
-            Vision UI Configurator
+            Mamapesa UI Configurator
           </VuiTypography>
           <VuiTypography variant="body2" color="white" fontWeight="bold">
             See our dashboard options.
@@ -215,76 +215,6 @@ function Configurator() {
         </VuiBox>
 
         <Divider light />
-
-        <VuiBox mt={3} mb={2}>
-          <VuiBox mb={2}>
-            <VuiButton
-              component={Link}
-              href="https://www.creative-tim.com/product/vision-ui-dashboard-react"
-              target="_blank"
-              rel="noreferrer"
-              color="info"
-              variant="contained"
-              fullWidth
-            >
-              FREE DOWNLOAD
-            </VuiButton>
-          </VuiBox>
-          <VuiButton
-            component={Link}
-            href="https://www.creative-tim.com/learning-lab/react/quick-start/vision-ui-dashboard/"
-            target="_blank"
-            rel="noreferrer"
-            color="info"
-            variant="outlined"
-            fullWidth
-          >
-            VIEW DOCUMENTATION
-          </VuiButton>
-        </VuiBox>
-        <VuiBox display="flex" justifyContent="center">
-          <GitHubButton
-            href="https://github.com/creativetimofficial/vision-ui-dashboard-react"
-            data-icon="octicon-star"
-            data-size="large"
-            data-show-count="true"
-            aria-label="Star creativetimofficial/vision-ui-dashboard-react on GitHub"
-          >
-            Star
-          </GitHubButton>
-        </VuiBox>
-        <VuiBox mt={3} textAlign="center">
-          <VuiBox mb={0.5}>
-            <VuiTypography variant="h6" color="white">
-              Thank you for sharing!
-            </VuiTypography>
-          </VuiBox>
-
-          <VuiBox display="flex" justifyContent="center">
-            <VuiBox mr={1.5}>
-              <VuiButton
-                component={Link}
-                href="https://twitter.com/intent/tweet?url=https://www.creative-tim.com/product/vision-ui-dashboard-react&text=Check%20Vision%20UI%20Dashboard%20made%20by%20@simmmple_web%20and%20@CreativeTim%20#webdesign%20#dashboard%20#react"
-                target="_blank"
-                rel="noreferrer"
-                color="dark"
-              >
-                <TwitterIcon />
-                &nbsp; Tweet
-              </VuiButton>
-            </VuiBox>
-            <VuiButton
-              component={Link}
-              href="https://www.facebook.com/sharer/sharer.php?u=https://www.creative-tim.com/product/vision-ui-dashboard-react"
-              target="_blank"
-              rel="noreferrer"
-              color="dark"
-            >
-              <FacebookIcon />
-              &nbsp; Share
-            </VuiButton>
-          </VuiBox>
-        </VuiBox>
       </VuiBox>
     </ConfiguratorRoot>
   );

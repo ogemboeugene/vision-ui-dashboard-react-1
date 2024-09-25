@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free React - v1.0.0
+* MAMAPESA React - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-react
@@ -17,15 +17,15 @@
 */
 
 /**
- * The base border styles for the Vision UI Dashboard  Material.
+ * The base border styles for the  Dashboard  Material.
  * You can add new border width, border color or border radius using this file.
- * You can customized the borders value for the entire Vision UI Dashboard  Material using thie file.
+ * You can customized the borders value for the entire  Dashboard  Material using thie file.
  */
 
-// Vision UI Dashboard React Base Styles
+//  Dashboard React Base Styles
 import colors from "assets/theme/base/colors";
 
-// Vision UI Dashboard React Helper Functions
+//  Dashboard React Helper Functions
 import pxToRem from "assets/theme/functions/pxToRem";
 
 const { borderCol } = colors;

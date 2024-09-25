@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free React - v1.0.0
+* MAMAPESA React - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-react
@@ -19,7 +19,7 @@
 // @mui material components
 import { styled } from "@mui/material/styles";
 
-// Vision UI Dashboard React components
+//  Dashboard React components
 import VuiButton from "components/VuiButton";
 
 export default styled(VuiButton)(({ theme, ownerState }) => {

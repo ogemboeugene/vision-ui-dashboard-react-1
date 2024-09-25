@@ -1,7 +1,7 @@
 /*!
 
 =========================================================
-* Vision UI Free React - v1.0.0
+* MAMAPESA React - v1.0.0
 =========================================================
 
 * Product Page: https://www.creative-tim.com/product/vision-ui-free-react
@@ -27,7 +27,7 @@ import VuiInputWithIconRoot from "components/VuiInput/VuiInputWithIconRoot";
 import VuiInputIconBoxRoot from "components/VuiInput/VuiInputIconBoxRoot";
 import VuiInputIconRoot from "components/VuiInput/VuiInputIconRoot";
 
-// Vision UI Dashboard React contexts
+//  Dashboard React contexts
 import { useVisionUIController } from "context";
 
 const VuiInput = forwardRef(({ size, icon, error, success, disabled, ...rest }, ref) => {

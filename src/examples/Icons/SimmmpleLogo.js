@@ -22,7 +22,7 @@ import PropTypes from "prop-types";
 function SimmmpleLogo({ size }) {
   return (
     <img
-    src={require('C:\\Users\\ADMIN\\Desktop\\New folder\\vision-ui-dashboard-react\\src\\assets\\images\\avatar-simmmple.png')} // Modified path to your image
+    src={require('../../assets/images/avatar-simmmple.png')} // Modified path to your image
     alt="Simmmple Logo"
     width={size}
     height={size}
